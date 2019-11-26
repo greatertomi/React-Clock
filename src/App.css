@@ -1,22 +1,41 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
+#clockDiv,
+#clockOuterDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #282c34;
-  min-height: 100vh;
+  flex-direction: column;
+  color: #61daf8;
+  height: 220px;
+  width: 220px;
+  border-radius: 50%;
+}
+
+#clockOuterDiv {
+  background-color: #32363e;
+  height: 270px;
+  width: 270px;
+}
+
+#date {
+  font-size: 17px;
+}
+#time {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.switch {
+  width: 200px;
+  height: 160px;
+}
+
+.controller {
+  margin: 20px;
+}
+
+.app {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
 }
